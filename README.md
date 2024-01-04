@@ -1,10 +1,9 @@
-# GitHub Profile Picture Watcher
+# Github Discord PFP Sync
 
-This Node.js application monitors changes to your GitHub profile picture and updates your Discord profile picture accordingly.
+## Overview
 
-## Description
+This Node.js application checks for changes in your GitHub profile picture daily and updates your Discord profile picture if a change is detected.
 
-This project utilizes the GitHub API to check for changes in your GitHub profile picture. If a change is detected, it fetches the new profile picture and updates your Discord profile picture using a selfbot.
 
 ## Prerequisites
 
@@ -12,21 +11,25 @@ This project utilizes the GitHub API to check for changes in your GitHub profile
 - GitHub account with a personal access token
 - Discord account with a bot token
 
+## Disclaimer
+
+**Note:** The use of selfbots on Discord is against [Discord's Terms of Service](https://discord.com/terms). Please use this application responsibly and be aware that using selfbots can result in your account being banned by Discord. The developer of this application is not responsible for any actions taken against your Discord account due to the use of selfbots.
+
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Justin_0122
+git clone https://github.com/Justin0122/github-discord-pfp-sync
 ```
 
 2. Install dependencies:
 
 ```bash
-cd github-profile-watcher && npm install
+cd github-discord-pfp-sync && npm install
 ```
 
-3. Copy the `.env.example` file to `.env` and fill in the required information:
+3. Copy the `.env.example` file to `.env` and fill in the required information
 
 4. Run the application:
 
